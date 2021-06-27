@@ -333,17 +333,4 @@ public class OzonWebTests extends TestBase {
         productCardSteps.openProductCard();
         productCardSteps.checkVersionIosPhone();
     }
-
-    @Test
-    @AllureId("0000")
-    @JiraIssue("QC5-7")
-    @Feature("Страница продукта")
-    @Tags({@Tag("regress"), @Tag("web")})
-    @DisplayName("Проверка наличия информации о версии IOS продукта")
-    public void unsuccessfulCheckVersionIosPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
-        productCardSteps.openProductCard();
-        productCardSteps.unsuccessfulCheckVersionIosPhone();
-    }
 }

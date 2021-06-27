@@ -7,6 +7,7 @@ import io.qameta.allure.selenide.AllureSelenide;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import tests.web.steps.MainPageSteps;
 import tests.web.steps.ProductCardSteps;
 
@@ -21,6 +22,9 @@ public class TestBase {
     static void setUp() {
         RestAssured.baseURI = "https://reqres.in";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
         DriverSettings.configure();
     }
 
@@ -31,7 +35,8 @@ public class TestBase {
         attachScreenshot("Last screenshot");
         attachPageSource();
         attachAsText("Browser console logs", getConsoleLogs());
-        attachVideo();
+        if (System.getProperty("video.storage") != null)
+            attachVideo();
         closeWebDriver();
     }
 }
