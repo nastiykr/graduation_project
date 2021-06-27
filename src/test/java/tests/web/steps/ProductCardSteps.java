@@ -170,7 +170,7 @@ public class ProductCardSteps {
     public void unsuccessfulCheckVersionIosPhone() {
         step("Проверить наличие информации о версии IOS продукта", () -> {
             $("#section-characteristics")
-                    .shouldHave(text("123"));
+                    .shouldHave(text("iOS 13"));
         });
     }
 }
