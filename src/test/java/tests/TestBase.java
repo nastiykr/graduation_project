@@ -3,12 +3,13 @@ package tests;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.AttachmentsHelper;
 import helpers.DriverSettings;
+import helpers.JsonHelper;
 import io.qameta.allure.selenide.AllureSelenide;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import tests.ui.steps.MainPageSteps;
-import tests.ui.steps.ProductCardSteps;
+import tests.web.steps.MainPageSteps;
+import tests.web.steps.ProductCardSteps;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static helpers.AttachmentsHelper.*;

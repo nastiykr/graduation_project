@@ -1,18 +1,26 @@
-package tests.ui;
+package tests.web;
 
+import annotations.JiraIssue;
+import annotations.Layer;
+import annotations.Microservice;
 import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
-
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import tests.TestBase;
 
-public class OzonTests extends TestBase {
+@Layer("rest")
+@Owner("c05-ebogdanovaa")
+@Feature("Карточка продукта")
+public class OzonWebTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
+    @Microservice("")
     @Feature("Главная страница")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка заголовка")
@@ -23,6 +31,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Главная страница")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка автоматически выбранного региона")
@@ -33,6 +42,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Главная страница")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка разделов")
@@ -43,6 +53,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Главная страница")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка категорий")
@@ -53,6 +64,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Главная страница")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка поиска позиции")
@@ -64,6 +76,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о коде продукта")
@@ -76,6 +89,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наименования продукта")
@@ -88,6 +102,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия кнопки 'Добавить в корзину'")
@@ -100,6 +115,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия ссылки 'Перейти к описанию'")
@@ -112,6 +128,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия описания продукта")
@@ -124,6 +141,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия комплектации продукта")
@@ -136,6 +154,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о диогонале")
@@ -148,6 +167,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации об оперативной памяти")
@@ -160,6 +180,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации об оперативной памяти")
@@ -172,6 +193,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о разрешении основной камеры")
@@ -184,6 +206,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о разрешении основной процессоре")
@@ -196,6 +219,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о разрешении экрана")
@@ -208,6 +232,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о технологии матрицы")
@@ -220,6 +245,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации об основном материале")
@@ -232,6 +258,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о весе продукта")
@@ -244,6 +271,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о гарантии продукта")
@@ -256,6 +284,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о бренде продукта")
@@ -268,6 +297,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о размере продукта")
@@ -280,6 +310,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о функции камеры продукта")
@@ -292,6 +323,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о версии продукта")
@@ -304,6 +336,7 @@ public class OzonTests extends TestBase {
 
     @Test
     @AllureId("0000")
+    @JiraIssue("QC5-7")
     @Feature("Страница продукта")
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о версии IOS продукта")

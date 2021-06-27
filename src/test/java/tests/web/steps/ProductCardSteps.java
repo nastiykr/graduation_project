@@ -1,9 +1,6 @@
-package tests.ui.steps;
-
-import com.codeborne.selenide.Condition;
+package tests.web.steps;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byTitle;
 import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 

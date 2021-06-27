@@ -1,6 +1,4 @@
-package tests.ui.steps;
-
-import org.openqa.selenium.By;
+package tests.web.steps;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byName;
