@@ -16,7 +16,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Layer("rest")
 @Owner("c05-ebogdanovaa")
-@Feature("Получение инфомрации о продукте")
 public class OzonApiTest {
     JsonHelper jsonHelper = new JsonHelper();
 
