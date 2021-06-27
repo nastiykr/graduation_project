@@ -166,11 +166,4 @@ public class ProductCardSteps {
                     .shouldHave(text("iOS 13"));
         });
     }
-
-    public void unsuccessfulCheckVersionIosPhone() {
-        step("Проверить наличие информации о версии IOS продукта", () -> {
-            $("#section-characteristics")
-                    .shouldHave(text("iOS 13"));
-        });
-    }
 }

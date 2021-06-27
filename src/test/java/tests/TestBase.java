@@ -3,7 +3,6 @@ package tests;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.AttachmentsHelper;
 import helpers.DriverSettings;
-import helpers.JsonHelper;
 import io.qameta.allure.selenide.AllureSelenide;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.AfterEach;
@@ -32,8 +31,7 @@ public class TestBase {
         attachScreenshot("Last screenshot");
         attachPageSource();
         attachAsText("Browser console logs", getConsoleLogs());
-        if (System.getProperty("video.storage") != null)
-            attachVideo();
+        attachVideo();
         closeWebDriver();
     }
 }
