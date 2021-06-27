@@ -81,8 +81,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о коде продукта")
     public void checkProductCode() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkProductCode();
     }
@@ -94,8 +92,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наименования продукта")
     public void checkProductName() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkProductName();
     }
@@ -107,8 +103,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия кнопки 'Добавить в корзину'")
     public void checkAddToCartButton() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkAddToCartButton();
     }
@@ -120,8 +114,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия ссылки 'Перейти к описанию'")
     public void checkGoToDescriptionLink() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkGoToDescriptionLink();
     }
@@ -133,8 +125,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия описания продукта")
     public void checkDescriptionProduct() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkDescription();
     }
@@ -146,8 +136,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия комплектации продукта")
     public void checkEquipmentProduct() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkEquipment();
     }
@@ -159,8 +147,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о диогонале")
     public void checkDiagonalPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkDiagonalPhone();
     }
@@ -172,8 +158,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации об оперативной памяти")
     public void checkRamPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkRamPhone();
     }
@@ -185,8 +169,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации об оперативной памяти")
     public void checkBuiltInMemoryPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkBuiltInMemoryPhone();
     }
@@ -198,8 +180,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о разрешении основной камеры")
     public void checkMainCameraResolution() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkMainCameraResolutionPhone();
     }
@@ -211,8 +191,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о разрешении основной процессоре")
     public void checkProcessorPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkProcessorPhone();
     }
@@ -224,8 +202,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о разрешении экрана")
     public void checkResolutionPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkResolutionPhone();
     }
@@ -237,8 +213,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о технологии матрицы")
     public void checkMatrixTechnologyPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkMatrixTechnologyPhone();
     }
@@ -250,8 +224,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации об основном материале")
     public void checkMainMaterialPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkMainMaterialPhone();
     }
@@ -263,8 +235,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о весе продукта")
     public void checkWeightPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkWeightPhone();
     }
@@ -276,8 +246,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о гарантии продукта")
     public void checkGuaranteePhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkGuaranteePhone();
     }
@@ -289,8 +257,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о бренде продукта")
     public void checkBrandPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkBrandPhone();
     }
@@ -302,8 +268,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о размере продукта")
     public void checkSizePhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkSizePhone();
     }
@@ -315,8 +279,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о функции камеры продукта")
     public void checkCameraFunctionPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkCameraFunctionPhone();
     }
@@ -328,8 +290,6 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о версии продукта")
     public void checkVersionIosPhone() {
-        mainSteps.openMainPage();
-        mainSteps.search();
         productCardSteps.openProductCard();
         productCardSteps.checkVersionIosPhone();
     }

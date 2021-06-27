@@ -1,14 +1,14 @@
 package tests.web.steps;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 public class ProductCardSteps {
 
     public void openProductCard() {
         step("Перейти к найденной позиции", () -> {
-            $(".j4.as3.az.a0f2.f-tsBodyL.item.b3u9.a1d1").click();
+            open("https://www.ozon.ru/product/smartfon-apple-iphone-11-128gb-chernyy-205771638");
         });
     }
 
