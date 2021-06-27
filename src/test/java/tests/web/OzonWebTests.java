@@ -3,7 +3,6 @@ package tests.web;
 import annotations.JiraIssue;
 import annotations.Layer;
 import annotations.Microservice;
-import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
@@ -18,7 +17,6 @@ import tests.TestBase;
 public class OzonWebTests extends TestBase {
 
     @Test
-    @AllureId("0000")
     @JiraIssue("QC5-7")
     @Microservice("")
     @Feature("Главная страница")
@@ -30,7 +28,6 @@ public class OzonWebTests extends TestBase {
     }
 
     @Test
-    @AllureId("0000")
     @JiraIssue("QC5-7")
     @Feature("Главная страница")
     @Tags({@Tag("regress"), @Tag("web")})
@@ -41,7 +38,6 @@ public class OzonWebTests extends TestBase {
     }
 
     @Test
-    @AllureId("0000")
     @JiraIssue("QC5-7")
     @Feature("Главная страница")
     @Tags({@Tag("regress"), @Tag("web")})
@@ -52,7 +48,6 @@ public class OzonWebTests extends TestBase {
     }
 
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Главная страница")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -63,7 +58,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Главная страница")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -75,7 +69,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -86,7 +79,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -97,7 +89,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -108,7 +99,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -119,7 +109,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -130,7 +119,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -141,7 +129,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -152,7 +139,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -163,7 +149,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -174,7 +159,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -185,7 +169,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -196,7 +179,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -207,7 +189,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -218,7 +199,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -229,7 +209,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -240,7 +219,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -251,7 +229,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -262,7 +239,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -273,7 +249,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})
@@ -284,7 +259,6 @@ public class OzonWebTests extends TestBase {
 //    }
 //
 //    @Test
-//    @AllureId("0000")
 //    @JiraIssue("QC5-7")
 //    @Feature("Страница продукта")
 //    @Tags({@Tag("regress"), @Tag("web")})

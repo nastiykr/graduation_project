@@ -4,7 +4,6 @@ import annotations.Layer;
 import annotations.Microservice;
 import domain.Product;
 import helpers.JsonHelper;
-import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
@@ -22,7 +21,6 @@ public class OzonApiTest {
     JsonHelper jsonHelper = new JsonHelper();
 
     @Test
-    @AllureId("0000")
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
@@ -40,7 +38,6 @@ public class OzonApiTest {
     }
 
     @Test
-    @AllureId("0000")
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
@@ -59,7 +56,6 @@ public class OzonApiTest {
     }
 
     @Test
-    @AllureId("0000")
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
@@ -78,7 +74,6 @@ public class OzonApiTest {
     }
 
     @Test
-    @AllureId("0000")
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
@@ -97,7 +92,6 @@ public class OzonApiTest {
     }
 
     @Test
-    @AllureId("0000")
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
@@ -116,7 +110,6 @@ public class OzonApiTest {
     }
 
     @Test
-    @AllureId("0000")
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
@@ -135,7 +128,6 @@ public class OzonApiTest {
     }
 
     @Test
-    @AllureId("0000")
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
