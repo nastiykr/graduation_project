@@ -8,7 +8,6 @@ import java.util.Objects;
 public class Product {
 
     private String id;
-//    private String name;
     private String url;
     @JsonProperty("category_id")
     private String categoryId;
