@@ -59,8 +59,8 @@ public class OzonWebTests extends TestBase {
     @Test
     @JiraIssues({@JiraIssue("QC5-7")})
     @Feature("Главная страница")
-    @Tags({@Tag("regress"), @Tag("web")})
-    @DisplayName("Проверка поиска позиции")
+    @Tags({@Tag("regress"), @Tag("web"), @Tag("unsuccessful")})
+    @DisplayName("Проверка поиска позиции (unsuccessful)")
     public void checkFoundedPosition() {
         mainSteps.openMainPage();
         mainSteps.search();
