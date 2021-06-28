@@ -24,6 +24,12 @@ allure {
     }
 }
 
+apply plugin: "java"
+
+test {
+    ignoreFailures = ignoreFailureProp.toBoolean()
+}
+
 dependencies {
     testImplementation(
             "org.aspectj:aspectjweaver:1.9.6",

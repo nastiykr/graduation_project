@@ -129,12 +129,14 @@ public class MainPageSteps {
     public void search() {
         step("Поиск позиции", () -> {
             $(byName("search")).setValue("Смартфон Apple iPhone 11 128GB, черный").pressEnter();
+
+            $("[aria-label = 'Поиск']").parent().click();
         });
     }
 
     public void checkNamePosition() {
         step("Проверка наименования продукта", () -> {
-            $(".j4.as3.az.a0f2.f-tsBodyL.item.b3u9.a1d1")
+            $(".widget-search-result-container.ao3")
                     .shouldHave(text("Смартфон Apple iPhone 11 128GB, черный"));
         });
     }
