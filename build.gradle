@@ -4,6 +4,10 @@ plugins {
     id "io.freefair.lombok" version "6.0.0-m2"
 }
 
+test {
+    ignoreFailures = true
+}
+
 repositories {
     maven {url = "https://dl.bintray.com/qameta/maven-unstable/"}
     mavenCentral()
@@ -22,12 +26,6 @@ allure {
     useJUnit5 {
         version = allureVersion
     }
-}
-
-apply plugin: "java"
-
-test {
-    ignoreFailures = ignoreFailureProp.toBoolean()
 }
 
 dependencies {
