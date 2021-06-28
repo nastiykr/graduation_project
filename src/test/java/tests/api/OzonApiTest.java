@@ -1,5 +1,7 @@
 package tests.api;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import annotations.Layer;
 import annotations.Microservice;
 import domain.Product;
@@ -16,6 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Layer("rest")
 @Owner("c05-ebogdanovaa")
+@DisplayName("Контроллеры для получении информации о продукте")
 public class OzonApiTest {
     JsonHelper jsonHelper = new JsonHelper();
 
@@ -37,6 +40,7 @@ public class OzonApiTest {
     }
 
     @Test
+    @JiraIssues({@JiraIssue("QC5-7")})
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
@@ -73,6 +77,7 @@ public class OzonApiTest {
     }
 
     @Test
+    @JiraIssues({@JiraIssue("QC5-7")})
     @Microservice("АПИ")
     @Feature("Получение информации о продукте")
     @Tag("api")
