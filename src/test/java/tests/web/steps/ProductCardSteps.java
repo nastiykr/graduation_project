@@ -15,7 +15,7 @@ public class ProductCardSteps {
     public void checkProductCode() {
         step("Проверить наличие информации о коде продукта", () -> {
             $(".b2d7.b2d9")
-                    .shouldHave(text("Код товара: 105771638"));
+                    .shouldHave(text("Код товара: 205771638"));
         });
     }
 

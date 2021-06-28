@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import tests.TestBase;
 
-@Layer("rest")
+@Layer("web")
 @Owner("c05-ebogdanovaa")
 public class OzonWebTests extends TestBase {
 
