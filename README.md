@@ -1,6 +1,5 @@
 # Автотесты на http://ozon.ru
 ## Technology Stack
-<br><br>
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg" width="40" height="40"  alt="IDEA"/>
 </a>
@@ -37,8 +36,6 @@
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width="40" height="40"  alt="Telegram"/>
 </a>
-
-
 IntelliJ IDEA, Java, Gradle, JUnit5, Rest-Assured, Selenide, Jenkins, Selenoid, Github, Allure TestOps, Jira, Telegram (notifications)
 <br><br>
 ## Были реализованы следующие проверки:
@@ -109,8 +106,7 @@ IntelliJ IDEA, Java, Gradle, JUnit5, Rest-Assured, Selenide, Jenkins, Selenoid, 
 :heavy_check_mark: - Проверка получения информации о беговой дорожке
 
 :heavy_check_mark: - Проверка получения информации о пылесосах
-____
-
+<br><br>
 ## Команды для запуска тестов из терминала
 Для локального запуска тестов необходимо задать параметры в `local.driver.properies`
 ```
@@ -120,8 +116,7 @@ gradle clean test
 ```
 gradle clean test -Dthreads=3
 ```
-____
-
+<br><br>
 ## Видео прохождения одного из тестов
 ![Selenoid](src/test/resources/files/Selenoid.gif)
 <br><br>
@@ -130,6 +125,7 @@ ____
 [Ссылка на джобу в Jenkins](https://jenkins.autotests.cloud/job/c05-ebogdanovaa-graduationProject/)
 ### Статистика по последним пяти запускам тестов
 ![Jenkins](src/test/resources/files/Jenkins.jpg)
+<br><br>
 
 ### Указание параметров для запуска тестов
 ![Jenkins](src/test/resources/files/Jenkins1.jpg)
@@ -138,41 +134,41 @@ ____
 ## В качестве системы Тест Менеджмента был использован Allure TestOps
 ### Основной дашборд для отслеживания
 ![Allure_MainDashboard](src/test/resources/files/Allure_dashboars1.jpg)
-
+<br><br>
 
 ### Дашборд по разным типам тестов
 ![Allure_Tests](src/test/resources/files/Allure_dashboars2.jpg)
-
+<br><br>
 
 ### Дашборд по разным стадиям
 ![Allure_StageDashboard](src/test/resources/files/Allure_dashboars3.jpg)
-
+<br><br>
 
 ### Дашборд по участникам команды
 ![Allure_TeamDashboard](src/test/resources/files/Allure_dashboars4.jpg)
-
+<br><br>
 
 ### Пример ручного теста
 ![Allure_ManualTest](src/test/resources/files/Allure_dashboars5.jpg)
-
+<br><br>
 
 ### Пример автоматизированного теста
 ![Allure_AutomationTest](src/test/resources/files/Allure_dashboars6.jpg)
-
+<br><br>
 
 ### Страница запуска тестов
 ![Allure_Launch](src/test/resources/files/Allure_dashboars7.jpg)
-
+<br><br>
 
 ### Отчет по конкретному запуску
 ![Allure_Launch72](src/test/resources/files/Allure_dashboars8.jpg)
+<br><br>
 
-____
 ## В качестве багтрекера использовалась Jira, у которой была настроена интеграция с Allure TestOps
 ### Пример инцидента на регресс с привязкой тест-кейсов и запуском тестов
 ![Allure_Jira](src/test/resources/files/JIRA.jpg)
+<br><br>
 
-____
 ## Для отправки нотификаций был выбран Telegram
 ![Allure_Telega](src/test/resources/files/Notifications.gif)
 ### Пример нотификации с результатом прохождения тестов
