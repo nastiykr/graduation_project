@@ -129,6 +129,7 @@ ____
 ____
 
 ## В качестве CI системы был использован Jenkins
+[Ссылка джобу в Jenkins](https://jenkins.autotests.cloud/job/c05-ebogdanovaa-graduationProject/)
 ### Статистика по последним пяти запускам тестов
 ![Jenkins](src/test/resources/files/Jenkins.jpg)
 
@@ -174,7 +175,7 @@ ____
 ![Allure_Jira](src/test/resources/files/JIRA.jpg)
 
 ____
-## Для отправки нотификаций, мною был выбран Telegram
+## Для отправки нотификаций был выбран Telegram
 ![Allure_Telega](src/test/resources/files/Notifications.gif)
 ### Пример нотификации с результатом прохождения тестов
 
