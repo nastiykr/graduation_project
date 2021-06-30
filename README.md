@@ -113,7 +113,7 @@ IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure SE, Allure TestO
 :heavy_check_mark: - Проверка получения информации о пылесосах
 
 ### Команды для запуска тестов из терминала
-Для локального запуска тестов необходимо задать параметры в local.properies
+Для локального запуска тестов необходимо задать параметры в local.driver.properies
 ```
 gradle clean test
 ```
