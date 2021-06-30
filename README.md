@@ -36,8 +36,10 @@
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width="40" height="40"  alt="Telegram"/>
 </a>
+
 IntelliJ IDEA, Java, Gradle, JUnit5, Rest-Assured, Selenide, Jenkins, Selenoid, Github, Allure TestOps, Jira, Telegram (notifications)
 <br><br>
+
 ## Были реализованы следующие проверки:
 ### UI:
 
