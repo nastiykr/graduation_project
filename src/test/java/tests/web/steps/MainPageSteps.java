@@ -128,7 +128,7 @@ public class MainPageSteps {
 
     public void search() {
         step("Поиск позиции", () -> {
-            $(byName("search")).setValue("Смартфон Apple iPhone 11 128GB, черный");
+            $(byName("text")).setValue("Смартфон Apple iPhone 11 128GB, черный");
 
             $("[aria-label = 'Поиск']").parent().click();
         });
