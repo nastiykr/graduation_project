@@ -114,11 +114,11 @@ ____
 ____
 
 ## Команды для запуска тестов из терминала
-Для локального запуска тестов необходимо задать параметры в `local.driver.properies`
+### Для локального запуска тестов необходимо задать параметры в `local.driver.properies`
 ```
 gradle clean test
 ```
-Для запуска тестов в несколько потоков необходимо в атрибуте `Dthreads` передать число, равное желаемому количеству потоков
+### Для запуска тестов в несколько потоков необходимо в атрибуте `Dthreads` передать число, равное желаемому количеству потоков
 ```
 gradle clean test -Dthreads=3
 ```
@@ -129,52 +129,53 @@ ____
 ____
 
 ## В качестве CI системы был использован Jenkins
-Статистика по последним пяти запускам тестов
+### Статистика по последним пяти запускам тестов
 ![Jenkins](src/test/resources/files/Jenkins.jpg)
 
-Указание параметров для запуска тестов
+### Указание параметров для запуска тестов
 ![Jenkins](src/test/resources/files/Jenkins1.jpg)
 ____
 
 ## В качестве системы Тест Менеджмента был использован Allure TestOps
-Основной дашборд для отслеживания
+### Основной дашборд для отслеживания
 ![Allure_MainDashboard](src/test/resources/files/Allure_dashboars1.jpg)
 
 
-Дашборд по разным типам тестов
+### Дашборд по разным типам тестов
 ![Allure_Tests](src/test/resources/files/Allure_dashboars2.jpg)
 
 
-Дашборд по разным стадиям
+### Дашборд по разным стадиям
 ![Allure_StageDashboard](src/test/resources/files/Allure_dashboars3.jpg)
 
 
-Дашборд по участникам команды
+### Дашборд по участникам команды
 ![Allure_TeamDashboard](src/test/resources/files/Allure_dashboars4.jpg)
 
 
-Пример ручного теста
+### Пример ручного теста
 ![Allure_ManualTest](src/test/resources/files/Allure_dashboars5.jpg)
 
 
-Пример автоматизированного теста
+### Пример автоматизированного теста
 ![Allure_AutomationTest](src/test/resources/files/Allure_dashboars6.jpg)
 
 
-Страница запуска тестов
+### Страница запуска тестов
 ![Allure_Launch](src/test/resources/files/Allure_dashboars7.jpg)
 
 
-Отчет по конкретному запуску
+### Отчет по конкретному запуску
 ![Allure_Launch72](src/test/resources/files/Allure_dashboars8.jpg)
 
 ____
 ## В качестве багтрекера использовалась Jira, у которой была настроена интеграция с Allure TestOps
-Пример инцидента на регресс с привязкой тест-кейсов и запуском тестов
+### Пример инцидента на регресс с привязкой тест-кейсов и запуском тестов
 ![Allure_Jira](src/test/resources/files/JIRA.jpg)
 
 ____
 ## Для отправки нотификаций, мною был выбран Telegram
 ![Allure_Telega](src/test/resources/files/Notifications.gif)
-Пример нотификации с результатом прохождения тестов
+### Пример нотификации с результатом прохождения тестов
+
 ![Allure_Telega2](src/test/resources/files/Notifications.jpg)
