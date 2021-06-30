@@ -1,6 +1,7 @@
 # graduation_project
 # Автотесты на http://ozon.ru
 
+##Technology Stack
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg" width="40" height="40"  alt="IDEA"/>
 </a>
