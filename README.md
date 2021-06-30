@@ -42,7 +42,7 @@
 </a>
 
 IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure SE, Allure TestOps, Github, Jenkins, Rest-Assured, Telegram (notifications), Jira.
-
+____
 ## Были реализованы следующие проверки:
 ### UI:
 
@@ -111,8 +111,7 @@ IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure SE, Allure TestO
 :heavy_check_mark: - Проверка получения информации о беговой дорожке
 
 :heavy_check_mark: - Проверка получения информации о пылесосах
-
-
+____
 
 ## Команды для запуска тестов из терминала
 Для локального запуска тестов необходимо задать параметры в `local.driver.properies`
@@ -127,7 +126,7 @@ ____
 
 ## Видео прохождения одного из тестов
 ![Selenoid](src/test/resources/files/Selenoid.gif)
-
+____
 
 ## В качестве CI системы был использован Jenkins
 Статистика по последним пяти запускам тестов
@@ -135,7 +134,7 @@ ____
 
 Указание параметров для запуска тестов
 ![Jenkins](src/test/resources/files/Jenkins1.jpg)
-
+____
 
 ## В качестве системы Тест Менеджмента был использован Allure TestOps
 Основной дашборд для отслеживания
@@ -169,14 +168,12 @@ ____
 Отчет по конкретному запуску
 ![Allure_Launch72](src/test/resources/files/Allure_dashboars8.jpg)
 
-
-
+____
 ## В качестве багтрекера использовалась Jira, у которой была настроена интеграция с Allure TestOps
 Пример инцидента на регресс с привязкой тест-кейсов и запуском тестов
 ![Allure_Jira](src/test/resources/files/JIRA.jpg)
 
-
-
+____
 ## Для отправки нотификаций, мною был выбран Telegram
 ![Allure_Telega](src/test/resources/files/Notifications.gif)
 Пример нотификации с результатом прохождения тестов
