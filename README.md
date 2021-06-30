@@ -45,10 +45,15 @@ IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure SE, Allure TestO
 
 ## Были реализованы следующие проверки:
 ### UI:
-####:heavy_check_mark: - Проверка поиска позиции
+
+:heavy_check_mark: - Проверка поиска позиции
+
 :heavy_check_mark: - Проверка категорий на главной странице
+
 :heavy_check_mark: - Проверка разделов на главной странице
+
 :heavy_check_mark: - Проверка заголовка на главной странице
+
 :heavy_check_mark: - Проверка автоматически выбранного региона на главной странице
 
 :heavy_check_mark: - Проверка наименования продукта
