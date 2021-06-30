@@ -123,7 +123,7 @@ gradle clean test
 ```
 gradle clean test -Dthreads=3
 ```
-
+____
 
 ## Видео прохождения одного из тестов
 ![Selenoid](src/test/resources/files/Selenoid.gif)
