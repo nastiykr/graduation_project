@@ -134,28 +134,28 @@ gradle clean test -Dthreads=3
 
 ## В качестве системы Тест Менеджмента был использован Allure TestOps
 Основной дашборд для отслеживания
-![Allure_MainDashboard](src/test/resources/files/Allure_dashboards1.jpg)
+![Allure_MainDashboard](src/test/resources/files/Allure_dashboars1.jpg)
 
 Дашборд по разным типам тестов
-![Allure_Tests](src/test/resources/files/Allure_dashboards2.jpg)
+![Allure_Tests](src/test/resources/files/Allure_dashboars2.jpg)
 
 Дашборд по разным стадиям
-![Allure_StageDashboard](src/test/resources/files/Allure_dashboards3.jpg)
+![Allure_StageDashboard](src/test/resources/files/Allure_dashboars3.jpg)
 
 Дашборд по участникам команды
-![Allure_TeamDashboard](src/test/resources/files/Allure_dashboards4.jpg)
+![Allure_TeamDashboard](src/test/resources/files/Allure_dashboars4.jpg)
 
 Пример ручного теста
-![Allure_ManualTest](src/test/resources/files/Allure_dashboards5.jpg)
+![Allure_ManualTest](src/test/resources/files/Allure_dashboars5.jpg)
 
 Пример автоматизированного теста
-![Allure_AutomationTest](src/test/resources/files/Allure_dashboards6.jpg)
+![Allure_AutomationTest](src/test/resources/files/Allure_dashboars6.jpg)
 
 Страница запуска тестов
-![Allure_Launch](src/test/resources/files/Allure_dashboards7.jpg)
+![Allure_Launch](src/test/resources/files/Allure_dashboars7.jpg)
 
 Отчет по конкретному запуску
-![Allure_Launch72](src/test/resources/files/Allure_dashboards8.jpg)
+![Allure_Launch72](src/test/resources/files/Allure_dashboars8.jpg)
 
 ## В качестве багтрекера использовалась Jira, у которой была настроена интеграция с Allure TestOps
 Пример инцидента на регресс с привязкой тест-кейсов и запуском тестов
