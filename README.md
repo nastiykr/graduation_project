@@ -112,6 +112,8 @@ IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure SE, Allure TestO
 
 :heavy_check_mark: - Проверка получения информации о пылесосах
 
+
+
 ## Команды для запуска тестов из терминала
 Для локального запуска тестов необходимо задать параметры в `local.driver.properies`
 ```
@@ -122,8 +124,10 @@ gradle clean test
 gradle clean test -Dthreads=3
 ```
 
+
 ## Видео прохождения одного из тестов
 ![Selenoid](src/test/resources/files/Selenoid.gif)
+
 
 ## В качестве CI системы был использован Jenkins
 Статистика по последним пяти запускам тестов
@@ -132,34 +136,46 @@ gradle clean test -Dthreads=3
 Указание параметров для запуска тестов
 ![Jenkins](src/test/resources/files/Jenkins1.jpg)
 
+
 ## В качестве системы Тест Менеджмента был использован Allure TestOps
 Основной дашборд для отслеживания
 ![Allure_MainDashboard](src/test/resources/files/Allure_dashboars1.jpg)
 
+
 Дашборд по разным типам тестов
 ![Allure_Tests](src/test/resources/files/Allure_dashboars2.jpg)
+
 
 Дашборд по разным стадиям
 ![Allure_StageDashboard](src/test/resources/files/Allure_dashboars3.jpg)
 
+
 Дашборд по участникам команды
 ![Allure_TeamDashboard](src/test/resources/files/Allure_dashboars4.jpg)
+
 
 Пример ручного теста
 ![Allure_ManualTest](src/test/resources/files/Allure_dashboars5.jpg)
 
+
 Пример автоматизированного теста
 ![Allure_AutomationTest](src/test/resources/files/Allure_dashboars6.jpg)
+
 
 Страница запуска тестов
 ![Allure_Launch](src/test/resources/files/Allure_dashboars7.jpg)
 
+
 Отчет по конкретному запуску
 ![Allure_Launch72](src/test/resources/files/Allure_dashboars8.jpg)
+
+
 
 ## В качестве багтрекера использовалась Jira, у которой была настроена интеграция с Allure TestOps
 Пример инцидента на регресс с привязкой тест-кейсов и запуском тестов
 ![Allure_Jira](src/test/resources/files/JIRA.jpg)
+
+
 
 ## Для отправки нотификаций, мною был выбран Telegram
 ![Allure_Telega](src/test/resources/files/Notifications.gif)
