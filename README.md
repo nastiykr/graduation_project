@@ -41,7 +41,8 @@
     <img src="https://starchenkov.pro/qa-guru/img/skills/Jira.svg" width="40" height="40"  alt="Jira"/>
 </a>
 
-IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure SE, Allure TestOps, Github, Jenkins, Rest-Assured, Telegram (notifications), Jira.
+IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure TestOps, Github, Jenkins, Rest-Assured, Telegram (notifications), Jira.
+IntelliJ IDEA, Java, Gradle, JUnit5, Rest-Assured, Selenide, Jenkins, Selenoid, Github, Allure TestOps, Jira, Telegram (notifications)
 ____
 ## Были реализованы следующие проверки:
 ### UI:
@@ -129,7 +130,7 @@ ____
 ____
 
 ## В качестве CI системы был использован Jenkins
-[Ссылка джобу в Jenkins](https://jenkins.autotests.cloud/job/c05-ebogdanovaa-graduationProject/)
+[Ссылка на джобу в Jenkins](https://jenkins.autotests.cloud/job/c05-ebogdanovaa-graduationProject/)
 ### Статистика по последним пяти запускам тестов
 ![Jenkins](src/test/resources/files/Jenkins.jpg)
 
