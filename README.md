@@ -1,7 +1,6 @@
-# graduation_project
 # Автотесты на http://ozon.ru
 ## Technology Stack
-
+<br><br>
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg" width="40" height="40"  alt="IDEA"/>
 </a>
@@ -41,7 +40,7 @@
 
 
 IntelliJ IDEA, Java, Gradle, JUnit5, Rest-Assured, Selenide, Jenkins, Selenoid, Github, Allure TestOps, Jira, Telegram (notifications)
-____
+<br><br>
 ## Были реализованы следующие проверки:
 ### UI:
 
@@ -125,7 +124,7 @@ ____
 
 ## Видео прохождения одного из тестов
 ![Selenoid](src/test/resources/files/Selenoid.gif)
-____
+<br><br>
 
 ## В качестве CI системы был использован Jenkins
 [Ссылка на джобу в Jenkins](https://jenkins.autotests.cloud/job/c05-ebogdanovaa-graduationProject/)
@@ -134,7 +133,7 @@ ____
 
 ### Указание параметров для запуска тестов
 ![Jenkins](src/test/resources/files/Jenkins1.jpg)
-____
+<br><br>
 
 ## В качестве системы Тест Менеджмента был использован Allure TestOps
 ### Основной дашборд для отслеживания
