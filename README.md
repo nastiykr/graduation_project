@@ -1,17 +1,11 @@
-# graduation_project
 # Автотесты на http://ozon.ru
 
+## Technology Stack
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg" width="40" height="40"  alt="IDEA"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Java.svg" width="40" height="40"  alt="Java"/>
-</a>
-<a href="https://www.jetbrains.com/idea/">
-    <img src="https://starchenkov.pro/qa-guru/img/skills/Selenide.svg" width="40" height="40"  alt="Seleide"/>
-</a>
-<a href="https://www.jetbrains.com/idea/">
-    <img src="https://starchenkov.pro/qa-guru/img/skills/Selenoid.svg" width="40" height="40"  alt="Selenoid"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Gradle.svg" width="40" height="40"  alt="Gradle"/>
@@ -20,28 +14,32 @@
     <img src="https://starchenkov.pro/qa-guru/img/skills/JUnit5.svg" width="40" height="40"  alt="JUnit 5"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
-    <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_Report.svg" width="40" height="40"  alt="Allure SE"/>
+    <img src="https://starchenkov.pro/qa-guru/img/skills/Rest-Assured.svg" width="40" height="40"  alt="ResrAssured"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
-    <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure EE"/>
-</a>
-<a href="https://www.jetbrains.com/idea/">
-    <img src="https://starchenkov.pro/qa-guru/img/skills/Github.svg" width="40" height="40"  alt="Github"/>
+    <img src="https://starchenkov.pro/qa-guru/img/skills/Selenide.svg" width="40" height="40"  alt="Seleide"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
-    <img src="https://starchenkov.pro/qa-guru/img/skills/Rest-Assured.svg" width="40" height="40"  alt="ResrAssured"/>
+    <img src="https://starchenkov.pro/qa-guru/img/skills/Selenoid.svg" width="40" height="40"  alt="Selenoid"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
-    <img src="https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width="40" height="40"  alt="Telegram"/>
+    <img src="https://starchenkov.pro/qa-guru/img/skills/Github.svg" width="40" height="40"  alt="Github"/>
+</a>
+<a href="https://www.jetbrains.com/idea/">
+    <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
     <img src="https://starchenkov.pro/qa-guru/img/skills/Jira.svg" width="40" height="40"  alt="Jira"/>
 </a>
+<a href="https://www.jetbrains.com/idea/">
+    <img src="https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width="40" height="40"  alt="Telegram"/>
+</a>
 
-IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure SE, Allure TestOps, Github, Jenkins, Rest-Assured, Telegram (notifications), Jira.
+IntelliJ IDEA, Java, Gradle, JUnit5, Rest-Assured, Selenide, Jenkins, Selenoid, Github, Allure TestOps, Jira, Telegram (notifications)
+<br><br>
 
 ## Были реализованы следующие проверки:
 ### UI:
@@ -111,7 +109,7 @@ IntelliJ IDEA, Java, Selenide, Selenoid, Gradle, JUnit5, Allure SE, Allure TestO
 :heavy_check_mark: - Проверка получения информации о беговой дорожке
 
 :heavy_check_mark: - Проверка получения информации о пылесосах
-
+<br><br>
 ## Команды для запуска тестов из терминала
 Для локального запуска тестов необходимо задать параметры в `local.driver.properies`
 ```
@@ -121,47 +119,61 @@ gradle clean test
 ```
 gradle clean test -Dthreads=3
 ```
-
+<br><br>
 ## Видео прохождения одного из тестов
 ![Selenoid](src/test/resources/files/Selenoid.gif)
+<br><br>
 
 ## В качестве CI системы был использован Jenkins
-Статистика по последним пяти запускам тестов
+[Ссылка на джобу в Jenkins](https://jenkins.autotests.cloud/job/c05-ebogdanovaa-graduationProject/)
+### Статистика по последним пяти запускам тестов
 ![Jenkins](src/test/resources/files/Jenkins.jpg)
+<br><br>
 
-Указание параметров для запуска тестов
+### Указание параметров для запуска тестов
 ![Jenkins](src/test/resources/files/Jenkins1.jpg)
+<br><br>
 
 ## В качестве системы Тест Менеджмента был использован Allure TestOps
-Основной дашборд для отслеживания
-![Allure_MainDashboard](src/test/resources/files/Allure dashboard1.jpg)
+### Основной дашборд для отслеживания
+![Allure_MainDashboard](src/test/resources/files/Allure_dashboars1.jpg)
+<br><br>
 
-Дашборд по разным типам тестов
-![Allure_Tests](src/test/resources/files/Allure dashboard2.jpg)
+### Дашборд по разным типам тестов
+![Allure_Tests](src/test/resources/files/Allure_dashboars2.jpg)
+<br><br>
 
-Дашборд по разным стадиям
-![Allure_StageDashboard](src/test/resources/files/Allure dashboard3.jpg)
+### Дашборд по разным стадиям
+![Allure_StageDashboard](src/test/resources/files/Allure_dashboars3.jpg)
+<br><br>
 
-Дашборд по участникам команды
-![Allure_TeamDashboard](src/test/resources/files/Allure dashboard4.jpg)
+### Дашборд по участникам команды
+![Allure_TeamDashboard](src/test/resources/files/Allure_dashboars4.jpg)
+<br><br>
 
-Пример ручного теста
-![Allure_ManualTest](src/test/resources/files/Allure dashboard5.jpg)
+### Пример ручного теста
+![Allure_ManualTest](src/test/resources/files/Allure_dashboars5.jpg)
+<br><br>
 
-Пример автоматизированного теста
-![Allure_AutomationTest](src/test/resources/files/Allure dashboard6.jpg)
+### Пример автоматизированного теста
+![Allure_AutomationTest](src/test/resources/files/Allure_dashboars6.jpg)
+<br><br>
 
-Страница запуска тестов
-![Allure_Launch](src/test/resources/files/Allure dashboard7.jpg)
+### Страница запуска тестов
+![Allure_Launch](src/test/resources/files/Allure_dashboars7.jpg)
+<br><br>
 
-Отчет по конкретному запуску
-![Allure_Launch72](src/test/resources/files/Allure dashboard8.jpg)
+### Отчет по конкретному запуску
+![Allure_Launch72](src/test/resources/files/Allure_dashboars8.jpg)
+<br><br>
 
 ## В качестве багтрекера использовалась Jira, у которой была настроена интеграция с Allure TestOps
-Пример инцидента на регресс с привязкой тест-кейсов и запуском тестов
+### Пример инцидента на регресс с привязкой тест-кейсов и запуском тестов
 ![Allure_Jira](src/test/resources/files/JIRA.jpg)
+<br><br>
 
-## Для отправки нотификаций, мною был выбран Telegram
+## Для отправки нотификаций был выбран Telegram
 ![Allure_Telega](src/test/resources/files/Notifications.gif)
-Пример нотификации с результатом прохождения тестов
+### Пример нотификации с результатом прохождения тестов
+
 ![Allure_Telega2](src/test/resources/files/Notifications.jpg)
