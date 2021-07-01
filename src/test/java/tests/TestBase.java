@@ -32,11 +32,12 @@ public class TestBase {
     @AfterEach
     public void addAttachments() {
         String url;
+        url = attachVideo();
         attachScreenshot("Last screenshot");
         attachPageSource();
         attachAsText("Browser console logs", getConsoleLogs());
         if (System.getProperty("video.storage") != null)
-           url =  attachVideo();
+            attachVideo();
         System.out.println(url);
         closeWebDriver();
     }
