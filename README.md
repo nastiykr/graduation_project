@@ -121,7 +121,7 @@ gradle clean test -Dthreads=3
 ```
 <br><br>
 ## Видео прохождения одного из тестов
-![Selenoid](src/test/resources/files/Selenoid.gif)
+![Selenoid](src/test/resources/files/test_run.gif)
 <br><br>
 
 ## В качестве CI системы был использован Jenkins
