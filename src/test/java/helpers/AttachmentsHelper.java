@@ -30,7 +30,7 @@ public class AttachmentsHelper {
     @Attachment(value = "Video", type = "text/html", fileExtension = ".html")
     public static String attachVideo() {
         return "<html><body><video width='100%' height='100%' controls autoplay><source src='"
-                + System.getProperty("videoStorage") + getSessionId() + ".mp4"
+                + DriverHelper.config.getVideoStorage() + getSessionId() + ".mp4"
                 + "' type='video/mp4'></video></body></html>";
     }
 

@@ -12,6 +12,8 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import tests.TestBase;
 
+import static helpers.AttachmentsHelper.attachVideo;
+
 @Layer("web")
 @Owner("c05-ebogdanovaa")
 @DisplayName("Веб-сайт ozon.ru")
@@ -73,8 +75,11 @@ public class OzonWebTests extends TestBase {
     @Tags({@Tag("regress"), @Tag("web")})
     @DisplayName("Проверка наличия информации о коде продукта")
     public void checkProductCode() {
+        String url;
         productCardSteps.openProductCard();
         productCardSteps.checkProductCode();
+        url = attachVideo();
+        url = attachVideo();
     }
 
     @Test
